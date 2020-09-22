@@ -1,0 +1,164 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=a:\
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+CRAXDRT.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINNT\system32\LVbuttons.ocx=
+C:\WINNT\system32\msscript.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\ComDlg32.ocx=
+C:\WINNT\system32\msdatgrd.ocx=
+C:\WINNT\system32\tabctl32.ocx=
+C:\WINNT\system32\mscomct2.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\scrrun.dll=
+C:\WINNT\system32\MSSTDFMT.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\winnt\system32\msvbvm60.dll=
+c:\winnt\system32\oleaut32.dll=
+c:\winnt\system32\olepro32.dll=
+c:\winnt\system32\asycfilt.dll=
+c:\winnt\system32\stdole2.tlb=
+c:\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\winnt\system32\tabctl32.ocx=
+c:\winnt\system32\sysinfo.ocx=
+c:\winnt\system32\scrrun.dll=
+c:\winnt\system32\msvcrt.dll=
+c:\winnt\system32\msstdfmt.dll=
+c:\winnt\system32\msscript.ocx=
+c:\winnt\system32\msdbrptr.dll=
+c:\winnt\system32\msdatgrd.ocx=
+c:\winnt\system32\mscomctl.ocx=
+c:\winnt\system32\mscomct2.ocx=
+c:\winnt\system32\msbind.dll=
+c:\winnt\system32\comdlg32.ocx=
+c:\winnt\system32\crpe32.dll=
+c:\program files\seagate software\viewers\activexviewer\crviewer.dll=
+c:\program files\microsoft office\office\excel9.olb=
+c:\program files\common files\microsoft shared\dao\dao360.dll=
+c:\winnt\system32\crystl32.ocx=
+c:\winnt\system32\lvbuttons.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\VES_VB\VES.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=No
+C:\WINNT\system32\oleaut32.dll=No
+C:\WINNT\system32\olepro32.dll=No
+C:\WINNT\system32\asycfilt.dll=No
+C:\WINNT\system32\stdole2.tlb=No
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=No
+C:\WINNT\system32\MSBIND.DLL=No
+C:\WINNT\system32\MSSTDFMT.DLL=No
+C:\WINNT\system32\MSDBRPTR.DLL=No
+C:\WINNT\system32\msscript.ocx=No
+C:\WINNT\system32\scrrun.dll=No
+C:\WINNT\system32\msvcrt.dll=No
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=No
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=No
+C:\WINNT\system32\LVbuttons.ocx=No
+C:\WINNT\system32\mscomctl.ocx=No
+C:\WINNT\system32\Crystl32.OCX=No
+C:\WINNT\system32\crpe32.dll=No
+C:\WINNT\system32\mscomct2.ocx=No
+C:\WINNT\system32\sysinfo.ocx=No
+C:\WINNT\system32\tabctl32.ocx=No
+C:\WINNT\system32\msdatgrd.ocx=No
+C:\WINNT\system32\ComDlg32.ocx=No
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\VES_VB\VES.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\msscript.ocx=$(WinSysPath)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\EXCEL9.OLB=$(WinSysPath)
+C:\WINNT\system32\LVbuttons.ocx=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\Crystl32.OCX=$(WinSysPath)
+C:\WINNT\system32\crpe32.dll=$(WinSysPath)
+C:\WINNT\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINNT\system32\sysinfo.ocx=$(WinSysPath)
+C:\WINNT\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINNT\system32\ComDlg32.ocx=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\VES_VB\VES.exe=Yes
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=VAT Input Output Data Entry System
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=e:\VES_VB\project
+ProjectFolder=E:\VES_VB
+ServerSideCab=
+File1=e:\VES_VB\project\setup.exe
+File2=e:\VES_VB\project\Setup.Lst
+File3=e:\VES_VB\project\VES1.CAB
+File4=e:\VES_VB\project\VES2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=VAT Input Output Data Entry System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|VAT Input Output Data Entry System]
+Icon1=VES.exe
+Title1=VAT Input Output Data Entry System
+StartIn1=$(AppPath)
+Key1=Icon1
